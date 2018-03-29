@@ -1,0 +1,33 @@
+/* Style sheet for entire website */
+
+body
+{
+	background-color:rgb(0, 112, 60);
+}
+
+
+header
+{
+	font-size:1.6em;
+	color:white;
+	text-shadow: 2px 3px 0px black;
+}
+
+nav
+{
+	text-align:center;
+	margin: 20px 0 0;
+}
+
+a
+{
+	color:white;
+	font-size:1.5em;
+	padding:10px;
+}
+
+a:hover
+{
+	font-size:1.7;
+	color:black;
+}
