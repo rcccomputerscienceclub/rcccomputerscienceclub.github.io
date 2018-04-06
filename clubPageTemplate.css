@@ -1,0 +1,101 @@
+/*Club information page template*/
+
+.grid
+{
+	display: grid;	
+	grid-template-columns: 5% 10% 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas:
+	"logo nav2 nav2 nav2"
+	". . . ."
+	"header header header header"
+	"intro intro intro intro"
+	". . . ."
+	"members members members members"
+	". . . ."
+	"content content content content"
+	". . . ."
+	"footer footer footer footer";
+}
+
+.logo
+{
+	grid-area: logo;
+	background-color: rgb(14, 88, 51);
+}
+
+.header
+{
+	grid-area: header;
+	text-align: center;
+}
+
+.nav2
+{
+        grid-area: nav2;
+	text-align: right;
+	font-size: 1em;
+	padding-right: 25px;
+	padding-top: 25px;
+	background-color: rgb(14, 88, 51);
+}
+
+.intro
+{
+	grid-area: intro;
+	text-align: center;
+	padding-bottom: 90px;
+}
+
+.content
+{
+        grid-area: content;
+	text-align: center;
+	padding-top: 90px;
+}
+
+.footer
+{
+	padding-top: 100px;
+        grid-area: footer;
+}
+
+.members
+{
+	grid-area: members;
+	text-align: center;
+}
+
+#navbar li
+{
+	display: inline;
+	padding: 10px;
+}
+
+/*
+.grid div:nth-child(odd)
+{
+	background-color: red;
+}
+.grid div:nth-child(even)
+{
+        background-color: green;
+}
+*/
+
+@media screen and (min-width: 736px)
+{
+	.grid
+	{
+        	display: grid;
+        	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-template-areas:
+		"logo nav2 nav2 nav2 nav2 nav2"
+		". . . . . ."
+		"header header header header header header"
+		". intro intro intro intro ."
+		". . members members . ."
+		". content content content content ."
+		"footer footer footer footer footer footer";
+	}
+}

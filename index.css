@@ -1,0 +1,40 @@
+/*Style sheet for index page*/
+
+.grid
+{
+	display: grid;
+	grid-template-columns: 25% 75%;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-areas:
+	"logo nav"
+	". ."
+	"header header"
+}
+
+.nav2
+{
+	grid-area: nav;
+	text-align: right;
+	font-size: 1em;
+	padding-right: 25px;
+	padding-top: 25px;
+	background-color: rgb(14, 88, 51);
+}
+
+.logo
+{
+	grid-area: logo;
+	background-color: rgb(14, 88, 51);
+}
+
+.header
+{
+	grid-area: header;
+	text-align: center;
+}
+
+#navbar li
+{
+	display: inline;
+	padding: 10px;
+}
