@@ -21,9 +21,8 @@
 .chat
 {
 	grid-area: chat;
-	height: 1000px;
+	height: 100px;
 	width: 1000px;
-	align: center;
 }
 
 .logo
