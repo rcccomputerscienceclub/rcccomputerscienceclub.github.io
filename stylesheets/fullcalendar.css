@@ -10,9 +10,14 @@
 .fc-rtl {
   text-align: right; }
 
-body .fc {
+body .fc
+{
   /* extra precedence to overcome jqui */
-  font-size: 1em; }
+  font-size: 1em;
+  float: left;
+  width: 60%;
+  margin-left: 25%;
+}
 
 /* Colors
 --------------------------------------------------------------------------------------------------*/
