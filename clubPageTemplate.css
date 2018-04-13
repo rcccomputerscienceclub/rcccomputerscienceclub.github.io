@@ -18,6 +18,14 @@
 	"footer footer footer footer";
 }
 
+.chat
+{
+	grid-area: chat;
+	height: 1000px;
+	width: 1000px;
+	align: center;
+}
+
 .logo
 {
 	grid-area: logo;
@@ -96,6 +104,7 @@
 		". intro intro intro intro ."
 		". . members members . ."
 		". content content content content ."
+		"chat chat chat chat chat chat"
 		"footer footer footer footer footer footer";
 	}
 }
