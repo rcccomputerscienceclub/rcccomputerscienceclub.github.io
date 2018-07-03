@@ -1,21 +1,9 @@
 /*Club information page template*/
 
-.grid
+.container
 {
-	display: grid;	
-	grid-template-columns: 5% 10% 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
-	grid-template-areas:
-	"logo nav2 nav2 nav2"
-	". . . ."
-	"header header header header"
-	"intro intro intro intro"
-	". . . ."
-	"members members members members"
-	". . . ."
-	"content content content content"
-	". . . ."
-	"footer footer footer footer";
+	margin-top: 100px;
+	text-align: center;
 }
 
 .chat
@@ -24,8 +12,14 @@
 	height: 100px;
 	width: 1000px;
 }
+/*
+.navbar-toggler .navbar-toggler-icon {
+    	border-color: transparent;
+	background-color: black;
+}
+*/
 
-.logo
+.navbar
 {
 	grid-area: logo;
 	background-color: rgb(14, 88, 51);
@@ -36,7 +30,7 @@
 	grid-area: header;
 	text-align: center;
 }
-
+/*
 .nav2
 {
         grid-area: nav2;
@@ -46,7 +40,7 @@
 	padding-top: 25px;
 	background-color: rgb(14, 88, 51);
 }
-
+*/
 .intro
 {
 	grid-area: intro;
@@ -72,13 +66,13 @@
 	grid-area: members;
 	text-align: center;
 }
-
+/*
 #navbar li
 {
 	display: inline;
 	padding: 10px;
 }
-
+*/
 /*
 .grid div:nth-child(odd)
 {
@@ -89,7 +83,7 @@
         background-color: green;
 }
 */
-
+/*
 @media screen and (min-width: 736px)
 {
 	.grid
@@ -107,3 +101,4 @@
 		"footer footer footer footer footer footer";
 	}
 }
+*/
