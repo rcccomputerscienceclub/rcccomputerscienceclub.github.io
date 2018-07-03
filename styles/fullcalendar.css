@@ -13,10 +13,9 @@
 body .fc
 {
   /* extra precedence to overcome jqui */
-  font-size: 1em;
-  float: left;
-  width: 60%;
-  margin-left: 25%;
+  font-size: 0.8em;
+  width: 100%;
+  margin-left: 0%;
 }
 
 /* Colors
