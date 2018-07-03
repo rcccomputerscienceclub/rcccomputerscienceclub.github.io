@@ -11,32 +11,16 @@
 	background-color: rgb(14, 88, 51);
 }
 
-.header
-{
-	text-align: center;
-}
-
 .intro
 {
-	text-align: center;
-	padding-bottom: 90px;
-}
-
-.content
-{
-	text-align: center;
-	padding-top: 90px;
-}
-
-.footer
-{
-	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 .members
 {
-	text-align: center;
+	padding-bottom: 100px;
 }
+
 /*
 .grid div:nth-child(odd)
 {
