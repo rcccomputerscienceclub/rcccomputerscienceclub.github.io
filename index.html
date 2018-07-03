@@ -5,25 +5,20 @@
 <meta name="description" content="RCC Computer Science Club Website">
 <meta name="author" content="Computer Club">
 
-<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="stylesheet" type="text/css" href="styles/index.css">
 
-<link rel="stylesheet" type="text/css" href="bootswatch-cosmo.css">
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootswatch-cosmo.css">
 
-<link href='stylesheets/fullcalendar.css' rel='stylesheet' />
+<link href='styles/fullcalendar.css' rel='stylesheet' />
 
-<link href='stylesheets/fullcalendar.print.css' rel='stylesheet'media='print' />
+<link href='styles/fullcalendar.print.css' rel='stylesheet'media='print' />
 
 <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
-<script src="javascript/moment.js"></script>
-
-<script src="javascript/jquery.js"></script>
-
-<script src="javascript/fullcalendar.js"></script>
-
-<script type='text/javascript' src='javascript/gcal.js'></script>
-
-<script src="javascript/sha256.js"></script>
+	<script src="js/moment.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/fullcalendar.js"></script>
+        <script src='js/gcal.js' type='javascript/text' ></script>
 
 
 <script>
@@ -48,35 +43,52 @@ calendar[_0x1fe7('0x1')]({'googleCalendarApiKey':'AIzaSyAoAY43pfq2ZeIAi1rS-lDAB6
 </head>
 
 <body>
-
-<div class="grid">
-	<div class="logo">
-	<img src="logo.png" alt="RCC Computer Club logo">
-	</div>
-
-	<div class="nav2">
-		<ul id="navbar">
-			<li><a href="autocad.html">AutoCAD Club</a></li>
-			<li><a href="computerscience.html">Computer Science Club</a></li>
-			<li><a href="cybersecurity.html">Cyber Security Club</a></li>
-			<li><a href="robotics.html">Robotics Club</a></li>
-			<li><a href="tripleA.html">Triple A Club</a></li>
-		</ul>
-	</div>
-
-	<div class="header">
-		<h1>
-		Computer Clubs at RCC
-		</h1>
-	</div>
-</div>
-
-</br>
-
+<!--
 <iframe id="chatbox" src="https://titanembeds.com/embed/418124137958211594?css=79&defaultchannel=418124137958211597 &#10;" height="70%" width="20%" frameborder="0" style="float:left; position:fixed; top:20%; left:0%;"></iframe>
+-->
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+<a class="navbar-brand" href="index.html"><img src="logo.png" height="60px" width="100px"></img></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarsExample09">
+<ul class="navbar-nav mr-auto">
+
+        <li class="nav-item">
+                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item">
+                <a class="nav-link" href="autocad.html">Autocad Club</a>
+        </li>
+
+        <li class="nav-item">
+                <a class="nav-link" href="computerscience.html">Computer Science Club</a>
+        </li>
+
+        <li class="nav-item">
+                <a class="nav-link" href="cybersecurity.html">Cyber Security Club</a>
+        </li>
+
+        <li class="nav-item">
+                <a class="nav-link" href="robotics.html">Robotics Club</a>
+        </li>
+
+        <li class="nav-item">
+                <a class="nav-link" href="tripleA.html">Triple A Club</a>
+        </li>
+
+</ul>
+</div>
+</nav>
+
 
 <div id="calendar">
 </div>
+
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

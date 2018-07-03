@@ -3,9 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="club information page" content="robotics club information page">
-<link rel="stylesheet" type="text/css" href="clubPageTemplate.css">
+<link rel="stylesheet" type="text/css" href="styles/clubPageTemplate.css">
 
-<link rel="stylesheet" type="text/css" href="bootswatch-cosmo.css">
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootswatch-cosmo.css">
+
+<script src="js/jquery.js"></script>
 
 <title>Robotics Club Page</title>
 
@@ -15,18 +17,42 @@
 
         <div class="grid">
 
-                <div class="logo">
-                        <a href="index.html"><img src="logo.png" alt="RCC Computer Club logo"></a>
-                </div>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+<a class="navbar-brand" href="index.html"><img src="logo.png" height="60px" width="100px"></img></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
 
-                <div class="nav2">
-                        <ul id="navbar">
-				<li><a href="autocad.html">AutoCAD Club</a></li>
-                                <li><a href="computerscience.html">Computer Science Club</a></li>
-                                <li><a href="cybersecurity.html">Cyber Security Club</a></li>
-                                <li><a href="tripleA.html">Triple A Club</a></li>
-                        </ul>
-                </div>
+<div class="collapse navbar-collapse" id="navbarsExample09">
+<ul class="navbar-nav mr-auto">
+
+        <li class="nav-item">
+                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item">
+                <a class="nav-link" href="autocad.html">Autocad Club</a>
+        </li>
+
+        <li class="nav-item">
+                <a class="nav-link" href="computerscience.html">Computer Science Club</a>
+        </li>
+
+        <li class="nav-item">
+                <a class="nav-link" href="cybersecurity.html">Cyber Security Club</a>
+        </li>
+
+        <li class="nav-item">
+                <a class="nav-link" href="robotics.html">Robotics Club</a>
+        </li>
+
+        <li class="nav-item">
+                <a class="nav-link" href="tripleA.html">Triple A Club</a>
+        </li>
+
+</ul>
+</div>
+</nav>
 
                 <div class="header">
                         <h1>
@@ -65,6 +91,7 @@
 
                 <div class="footer">&copy;2018 RCC Computer Science Club</div>
         </div>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
